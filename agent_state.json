@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "project": "AI Chief Secretary — Norrapat",
+  "last_verified_at": "2026-07-30",
+  "status": "initialized",
+  "active_task": null,
+  "last_completed_task": "ACS-001",
+  "next_action": "Create the first product backlog item for Command Center MVP.",
+  "notes": [
+    "Use SIPOC and evidence for every task.",
+    "Use ai-engineering-from-scratch as a selective reference library."
+  ]
+}
