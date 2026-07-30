@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "project": "AI Chief Secretary — Norrapat",
+  "tasks": [
+    {
+      "id": "ACS-001",
+      "title": "Initialize agent workbench",
+      "status": "completed",
+      "owner": "Chief Secretary",
+      "deadline": null,
+      "estimated_cost": 0,
+      "expected_value": "A controlled repository foundation for dispatching and reviewing AI work.",
+      "sipoc": {
+        "supplier": [
+          "Product owner",
+          "AI Engineering from Scratch reference repository"
+        ],
+        "input": [
+          "Project requirements",
+          "Workbench reference"
+        ],
+        "process": [
+          "Create repository governance and state records"
+        ],
+        "output": [
+          "Agent workbench files"
+        ],
+        "customer": [
+          "Command Center",
+          "Coder Dispatch"
+        ]
+      },
+      "acceptance_criteria": [
+        "AGENTS.md and governance documents exist",
+        "Task board and agent state exist",
+        "Reference map is recorded"
+      ],
+      "evidence": [
+        "AGENTS.md",
+        "docs/",
+        "task_board.json",
+        "agent_state.json"
+      ],
+      "next_action": "Create the first product backlog item for Command Center MVP."
+    }
+  ]
+}
